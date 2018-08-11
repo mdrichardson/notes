@@ -8,6 +8,8 @@ In the above Graph, the set of vertices `V = {0,1,2,3,4}` and the set of edges `
 * Consists of finite (possibly mutable) set of vertices with a set of unordered pairs of vertices (undirected graph) or a set of ordered pairs (directed graph).
   * Pairs are known as edges, arcs, or lines (undirected) or arrows, directed edges, directed arcs (directed)
 * Frequently represents networks
+* Directed graph would be like the internet (pages frequently only point one way)
+  * Undirected would be like Facebook (people are connected to each other)
 
 ## Adjacency Matrix
 
@@ -28,3 +30,9 @@ In the above Graph, the set of vertices `V = {0,1,2,3,4}` and the set of edges `
 * Weights of edges can be stored in nodes of linked lists
 * Pros: Less space O(V + E)
 * Cons: Queries are O(V)
+
+## Incidence Matrix
+
+* Nodes and edges are both labeled
+* Works like adjacency matrix, but edges are columns and nodes are rows
+* With a directed graph, you can use -1 to represent edge is leaving node

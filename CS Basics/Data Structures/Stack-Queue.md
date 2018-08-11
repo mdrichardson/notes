@@ -2,10 +2,11 @@
 
 ## Stack
 
+* LIFO
 * Abstract data type, meaning it's defined by its behavior and not how it represents data
 * Two operations:
   * `push` adds elements to collection
-  * `pop` removes most recently added (LIFO)
+  * `pop` removes most recently added
   * So, all operations occur at the end/top of the stack
 * A stack can have a max/bounded capacity. If a stack is full and then a element is pushed to it, it causes a stack overflow
 * In python, lists are often used as stacks with `append()` and `pop()`

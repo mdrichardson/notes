@@ -3,6 +3,8 @@
 * Uses a dictionary/map data type
   * Key maps to bucket/value
 * Hash collisions occur when keys aren't unique
+  * Keys are converted to hash codes which are converted to array indices
+  * Infinite number of keys vs finite number of hash codes is what can cause collision
 * Pros: speed, especially when entries are predictable -- mostly O(1)
 * Cons: Not as effective when # of entries is very small, cannot be enumerated efficiently (pseudo-random)
 * Amortized constant-time: Hash table functions are--on average--completed in O(1), however, due to collisions or table resizing, a single operation might take *much* longer
