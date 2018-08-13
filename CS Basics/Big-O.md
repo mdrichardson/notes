@@ -15,9 +15,9 @@
 
 If you ask somebody about numbers 1-100 and tell them to guess which one you're thinking:
 
-* `O(1)`: You tell them what the answer is first
-* `O(log n)`: They guess 50, and you tell them higher or lower until they get it
-* `O(n)`: They guess in order from 1 to 2 to 3 until they get it
+* `O(1)`: You tell them what the answer is first. Called `constant time`
+* `O(log n)`: They guess 50, and you tell them higher or lower until they get it.
+* `O(n)`: They guess in order from 1 to 2 to 3 until they get it., Callled `linear time`
 * `O(n log n)`: They guess 50 and you tell them lower, but they still guess at higher and at lower
 * `O(n^2)`: They guess in order, but when they guess wrong, they have to start over. 1, then 1 2, then 1 2 3
 * `O(2^n)`: Same as above, but they have to repeat as they go, so 1 12 1 12 123 1 12 123 1234

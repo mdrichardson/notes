@@ -5,6 +5,9 @@
 * Hash collisions occur when keys aren't unique
   * Keys are converted to hash codes which are converted to array indices
   * Infinite number of keys vs finite number of hash codes is what can cause collision
+* If programming language doesn't have a hashSet (hash table without values), you could still do fast lookups by setting values to `true` and seeing if `hashSet[key]` returns `true`.
+  * Hash set in Python: `hS = set()`
+  * Javascript doesn't have one natively, so you'd have to use the `true` method above
 * Pros: speed, especially when entries are predictable -- mostly O(1)
 * Cons: Not as effective when # of entries is very small, cannot be enumerated efficiently (pseudo-random)
 * Amortized constant-time: Hash table functions are--on average--completed in O(1), however, due to collisions or table resizing, a single operation might take *much* longer
