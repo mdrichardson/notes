@@ -96,3 +96,15 @@ Rules:
 
 * Because of the rules, the tree is forced to be height-balanced, therefore the path from the root to the farthest leaf is no more than twice as long as the path from the root to the nearest leaf.
   * This mitigates the worst-possible big O scenario
+
+## Representing a Binary Tree
+
+![Binary Tree](http://btechsmartclass.com/DS/images/Binary%20Tree.png)
+
+### As Array:
+
+![Binary Tree as Array](http://btechsmartclass.com/DS/images/BT%20Array%20Representation.png)
+
+### As Double-Linked List
+
+![Binary Tree as Double-Linked List](http://btechsmartclass.com/DS/images/BT%20LR%20Node.png)
