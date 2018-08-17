@@ -31,17 +31,17 @@
 
 * Starts at root and goes as deep as possible before backtracking
 * Types:
-  * Pre-order: Root to leaves, left to right. Result: 1-2-3-4-5-6-7
-  * In-order: Leaves to root, left to right. Result: 3-2-4-1-6-5-7
-  * Post-order: All leaves, then up to root. Result: 3-4-2-6-7-5-1
+  * Pre-order: Root, left, right. Result: 1-2-3-4-5-6-7
+  * In-order: Left, root, right. Result: 3-2-4-1-6-5-7
+  * Post-order: Left, right, root. Result: 3-4-2-6-7-5-1
 * You usually want to search with an In-Order traversal because with a binary tree, the nodes will come out roughly in order.
   * If this is the binary tree:
-  
-  ```
+
+```
         6
     3       9
   1   4   7   10
-  ```
+```
 
 * ...it would come out 1, 3, 4, 6, 7, 9, 10
 

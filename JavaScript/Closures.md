@@ -7,9 +7,33 @@ Simple way:
 ```javascript
 (() => {
 
-    // Code you want enclosed
+    // Private code you want enclosed
+
+    return {
+        // public code you want shared
+    }
 
 })()
 ```
 
 The `()` at the end makes it self-execute
+
+Now, with ES6, we can use classes
+
+```javascript
+class xyz {
+
+    constructor() {
+        // private properties
+    }
+
+    // public methods
+
+    doThis() {
+        return 'abc'
+    }
+}
+
+// Make it so we can use the class elsewhere
+export default xys;
+```

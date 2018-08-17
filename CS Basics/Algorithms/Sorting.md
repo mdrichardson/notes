@@ -4,7 +4,7 @@
 
 ## Bubble
 
-1. Starts at end of list
+1. Starts at start of list
 2. If next item is smaller, they swap places and this continues until next item is no longer smaller
 3. Starts over
 
