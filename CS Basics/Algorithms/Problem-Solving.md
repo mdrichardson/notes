@@ -30,3 +30,7 @@ Start with problems you can already solve through iteration
 2. Write a "dispatcher" function that solves the problem for a "minimal" data set, like for the last item in a loop (like a base case)
     * Have the dispatcher call the iterative function for non-minimal cases
 3. Merge your iterative function into your dispatcher function
+
+Recursion works like a stack. It adds variables with the calls to the function to the stack until you hit the base case. Then it solves the base case and removes calls from the stacks, solving the problems in LIFO order.
+
+Because of storing everything in a stack, recursion often uses more memory than iteration.
