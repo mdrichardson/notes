@@ -2,6 +2,7 @@
 
 *Note: The following list will use `*` or `*s` in place of row/column/rows/columns*
 
+* You may need to use `display: -ms-grid` along with `display: grid`
 * Always define `grid-*-start` with `-ms-grid-*` or elements will overlap
   * IE defaults `grid-*-start` to `1` if you don't define it yourself
 * If you want things to center and it isn't working, it's probably because you defined your grid with rows and not columns, or vice versa.
