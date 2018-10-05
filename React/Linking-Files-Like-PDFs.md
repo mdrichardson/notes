@@ -5,7 +5,7 @@ React does this weird thing where clicking the link the first time works, but su
 To fix this, import the file as a module:
 
 ```jsx
-import pdfLink from '../xyz.pdf
+import pdfLink from '../xyz.pdf`
 ...
 <a href={ pdfLink }>
 ```
