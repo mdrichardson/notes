@@ -1,5 +1,7 @@
 # Async/Await
 
+Async/Await is like a new, cleaner version of Callbacks and Promises.
+
 Instead of:
 
 ```js
@@ -34,4 +36,15 @@ const sumRandomAsyncNums = async() => {
 
     console.log(`Result ${first + second +third}`);
 }
+```
+
+Relative to the Callbacks and Promises examples, to call `createPost`, we can just use:
+
+```js
+async function init() {
+    await createPost({ title: 'Post Three', body: 'This is post three' });
+    getPosts();
+}
+
+init();
 ```
