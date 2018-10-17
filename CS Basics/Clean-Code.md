@@ -151,4 +151,6 @@
   * Conceptual affinity - Functions that perform similar tasks should be vertically grouped together
 * Vertical Ordering
   * Downward direction - Concepts should flow like a newspaper: high level at the top, then low level details as you get further down
-
+* Horizontal Formatting
+  * No wider than 120 characters
+  * Don't use horizontal alignment. Just use `var a = 10` instead of `var a =       10` and trying to line up values with other variables
