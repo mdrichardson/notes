@@ -45,6 +45,42 @@
 
 * ...it would come out 1, 3, 4, 6, 7, 9, 10
 
+##### In-Order
+
+```python
+def inOrderTraversal(node) {
+  if (node) {
+    inOrderTraversal(node.left)
+    visit(node)
+    inOrderTraversal(node.right)
+  }
+}
+```
+
+##### Pre-Order
+
+```python
+def preOrderTraversal(node) {
+  if (node) {
+    visit(node)
+    preOrderTraversal(node.left)
+    preOrderTraversal(node.right)
+  }
+}
+```
+
+##### Post-Order
+
+```python
+def postOrderTraversal(node) {
+  if (node) {
+    postOrderTraversal(node.left)
+    postOrderTraversal(node.right)
+    visit(node)
+  }
+}
+```
+
 #### Breadth-First Search (BFS)
 
 * Starts at root and gets neighbor nodes first, before moving down a level

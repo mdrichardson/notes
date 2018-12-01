@@ -25,6 +25,37 @@
         * What about the problem, as a whole?
         * Does it matter? If we know the input is small, we don't need to operate in linear time, do we?
 
+## Another Approach
+
+From Cracking the Code Interview:
+
+1. Listen
+    * Make sure you have all of the necessary information
+    * Record anything unique or that stands out
+2. Example
+    * Come up with an easy-ish example. Don't make it too easy. Debug it.
+    * The example should be specific (real numbers/strings), sufficiently large, and not a special case
+    * Draw it and make sure the interviewer agrees the example fits the problem
+3. Brute Force
+    * Come up with the brute-force solution first.
+    * State it out loud even though you know it's simple and inefficient. Some candidates may struggle even getting this far.
+4. Optimize
+    * Find where it slows down and try to optimize it
+    * Try a time vs. space tradeoff (hash tables?)
+    * Look for unused information
+    * Use a fresh example
+5. Walkthrough
+    * Walk through the approach in detail
+    * Make sure you understand all of it before you write any code
+6. Implement
+    * Write beautiful code
+    * Modularize it - Pretend helper functions and classes exist and fill in later, if needed
+    * Use meaningful names
+7. Test
+    * Pay attention to hot spots like math and null nodes and unusual/non-standard code
+    * Walk through the code with small test cases
+    * Test some special and edge cases
+
 ## Recursion
 
 Start with problems you can already solve through iteration
