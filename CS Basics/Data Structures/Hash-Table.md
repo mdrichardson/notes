@@ -29,6 +29,6 @@ As # of keys grows, likelihood of hashing into the same bucket increases. Most h
 ![Open Addressing](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hash_table_5_0_1_1_1_1_0_SP.svg/570px-Hash_table_5_0_1_1_1_1_0_SP.svg.png)
 
 * All entry records are stored in the bucket, itself
-* When a collision occurs, an open bucket is search for (generally consecutively) and the entry is placed there, instead
+* When a collision occurs, an open bucket is searched for (generally consecutively) and the entry is placed there, instead
 * When searched, buckets are scanned at expected bucket first, then until an empty bucket is found. If an empty bucket is found, there is no such key in the table
 * Better for tables with low load factor, smaller records/elements, and similarly-sized data
