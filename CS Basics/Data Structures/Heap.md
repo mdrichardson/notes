@@ -7,3 +7,4 @@
 
 * Highest or lowest priority element is always stored at the root
 * It's a maximally efficient implementation of a priority queue
+* Insert element at bottom-right, then start swapping until it's in the correct position
