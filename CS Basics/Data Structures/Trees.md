@@ -30,7 +30,7 @@
 #### Depth-First Search (DFS)
 
 * Starts at root and goes as deep as possible before backtracking
-* Types:
+* Types (in relation to the root, root is first with pre, root is second with in-order, root is last with post):
   * Pre-order: Root, left, right. Result: 1-2-3-4-5-6-7
   * In-order: Left, root, right. Result: 3-2-4-1-6-5-7
   * Post-order: Left, right, root. Result: 3-4-2-6-7-5-1
