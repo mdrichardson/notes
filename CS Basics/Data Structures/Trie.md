@@ -2,7 +2,7 @@
 
 ![Trie](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/375px-Trie_example.svg.png)
 
-* A type of search tree buy keys aren't stored in nodes
+* A type of search tree but keys aren't stored in nodes
   * Instead, its position defines the key
     * In the above picture, the edges are parts of the key and then the node's key is the combined path. Down the left, "to" comes from the "t" node and then the "o" edge
     * Keys are generally the leaves
