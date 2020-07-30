@@ -135,12 +135,12 @@ Rules:
 
 ## Representing a Binary Tree
 
-![Binary Tree](http://btechsmartclass.com/DS/images/Binary%20Tree.png)
+![Binary Tree](http://www.btechsmartclass.com/data_structures/ds_images/Binary_Tree_example.png)
 
 ### As Array:
 
-![Binary Tree as Array](http://btechsmartclass.com/DS/images/BT%20Array%20Representation.png)
+![Binary Tree as Array](http://www.btechsmartclass.com/data_structures/ds_images/Binary_Tree_Array_Representation.png)
 
 ### As Double-Linked List
 
-![Binary Tree as Double-Linked List](http://btechsmartclass.com/DS/images/BT%20LR%20Node.png)
+![Binary Tree as Double-Linked List](http://www.btechsmartclass.com/data_structures/ds_images/Binary_Tree_Linked_List_Representation.png)
