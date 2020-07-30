@@ -18,4 +18,4 @@
 ## Disadvantages
 
 * Lookup can be slower than some hash tables
-* Sometimes requires more space than a hash table since memory may be allocated to each character, rather than a single chuck for the whole string
+* Sometimes requires more space than a hash table since memory may be allocated to each character, rather than a single chunk for the whole string
