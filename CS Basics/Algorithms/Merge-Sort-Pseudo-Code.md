@@ -9,7 +9,7 @@ function mergeSort(array) {
     // stop when array length is 1
     // split array in two
     // call mergeSort on each half
-    // call merge on the halves
+    // call merge on the halves and return
 }
 
 function merge(a, b) {
