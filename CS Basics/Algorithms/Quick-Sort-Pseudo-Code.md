@@ -12,7 +12,8 @@ function quickSort(array, left, right) {
         // run quickSort on right sub-array where left becomes pivotIndex + 1
 }
 
-function partition(array, left, right, pivot) {
+function partition(array, left, right) {
+    // set the pivot (be sure to use left and right, not array length)
     // while left hasn't met right
         // move left inwards until left item > pivot
         // move right inwards until right item < pivot
