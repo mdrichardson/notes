@@ -14,7 +14,7 @@ function quickSort(array, left, right) {
 
 function partition(array, left, right) {
     // set the pivot (be sure to use left and right, not array length)
-    // while left hasn't met right
+    // while left hasn't met right (EASY TO FORGET THIS PART--needs to run all available swaps)
         // move left inwards until left item > pivot
         // move right inwards until right item < pivot
         // if left item > right element, swap them

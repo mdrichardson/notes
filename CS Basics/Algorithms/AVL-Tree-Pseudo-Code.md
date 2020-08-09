@@ -38,8 +38,8 @@ class Tree {
 
   _update(node) {
     // get children heights
-    // our height is greatest child height + 1
-    // our balance is rightHeight - leftHeight
+    // node height is greatest child height + 1
+    // node balance is rightHeight - leftHeight
   }
 
   _balance(node) {
@@ -54,7 +54,7 @@ class Tree {
 
   _leftRotate(node) {
     // set pointer for the right node
-    // node's right node is right node's left node
+    // node's right node is pointer's left node
     // pointer's left node is node
     // update() the node, then the pointer. Order important because pointer will be the parent
     // return the pointer because it's the new parent
