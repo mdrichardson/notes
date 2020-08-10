@@ -26,7 +26,7 @@ Cacheing data or recursion can often solve this.
 
 ## DIY
 
-We often make writing and algorithm much harder than we would actually solve it ourselves. For example, if you needed to find Peter Smith's file in a stack of alphebetized folders, we'd do a binary search without even thinking about the algorithm.
+We often make writing an algorithm much harder than we would actually solve it ourselves. For example, if you needed to find Peter Smith's file in a stack of alphabetized folders, we'd do a binary search without even thinking about the algorithm.
 
 So, when trying to solve a problem. Actually solve the problem without code, first.
 
