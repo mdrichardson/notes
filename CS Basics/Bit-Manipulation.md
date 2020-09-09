@@ -158,6 +158,63 @@ updateBit = (num, i, bitValue) => {
 }
 ```
 
+## Tricks
+
+### `x << y` is equivalent to `x * 2**y`
+
+```js
+0b0001 << 1     // 2 (0010)
+0b0001 << 2     // 4 (0100)
+0b0001 << 3     // 8 (1000)
+```
+
+### `x >> y` is equivalent to `Math.floor(x / 2**y)`
+
+```js
+0b1001              // 1001 = 9
+0b1000              // 1000 = 8
+
+0b1001 >> 1         // 0100 = 4 = Math.floor( 9/2 )
+0b1000 >> 1         // 0100 = 4 = Math.floor( 8/2 )
+
+0b1001 >> 2         // 0010 = 2 = Math.floor( 9/4 )
+0b1000 >> 2         // 0010 = 2 = Math.floor( 8/4 )
+
+0b1001 >> 3         // 0001 = 1 = Math.floor( 9/8 )
+0b1000 >> 3         // 0001 = 1 = Math.floor( 8/8 )
+```
+
+## Masks
+
+Masks allow us to turn change specific bits while leaving others alone.
+
+Turn Off (`0` with `AND`):
+
+```js
+    101 (input)
+AND 011 (mask)
+-------
+    001 (result)
+```
+
+Turn On (`1` with `OR`):
+
+```js
+    101 (input)
+OR  011 (mask)
+-------
+    111 (result)
+```
+
+Flip (`1` with `XOR`):
+
+```js
+    101 (input)
+XOR 011 (mask)
+-------
+    110 (result)
+```
+
 ## Why Use Bitwise Operators
 
 1. Save space: instead of 8 true/false flags, you can just represent it as 00010101. Still easy to turn all on/off, etc using masks/operators
