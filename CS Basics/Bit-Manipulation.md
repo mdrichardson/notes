@@ -186,7 +186,7 @@ updateBit = (num, i, bitValue) => {
 
 ## Masks
 
-Masks allow us to turn change specific bits while leaving others alone.
+Masks allow us to change specific bits while leaving others alone.
 
 Turn Off (`0` with `AND`):
 
